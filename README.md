@@ -47,43 +47,43 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <div align="center">
   <a>
-    <img src="https://media.discordapp.net/attachments/453159761639112706/1050410682153181216/image.png" alt="ft_printf header">
+    <img src="assets/ft_printf_header.png" alt="ft_printf header">
   </a>
 </div>
 
 This project is focused on recode the libc's printf function and compile it as a C library<br />
+
 ### Mandatory part (conversions)
-- `%c` -> print a single character.
-- `%s` -> print a string of characters.
-- `%p` -> The void * pointer argument is printed in hexadecimal.
-- `%d` -> print a decimal (base 10) number.
-- `%i` -> print an integer in base 10.
-- `%u` -> print an unsigned decimal (base 10) number.
-- `%x` -> print a number in hexadecimal (base 16), with lowercase.
-- `%X` -> print a number in hexadecimal (base 16), with uppercase.
-- `%%` -> print a percent sign.
+
+-   `%c` -> print a single character.
+-   `%s` -> print a string of characters.
+-   `%p` -> The void \* pointer argument is printed in hexadecimal.
+-   `%d` -> print a decimal (base 10) number.
+-   `%i` -> print an integer in base 10.
+-   `%u` -> print an unsigned decimal (base 10) number.
+-   `%x` -> print a number in hexadecimal (base 16), with lowercase.
+-   `%X` -> print a number in hexadecimal (base 16), with uppercase.
+-   `%%` -> print a percent sign.
 
 ### Bonus part
 
-- Managing any combination of the following flags: ``-0.`` and minimum field width
-with all conversions
-- Managing all the following flags: `#+` + the space one
+-   Managing any combination of the following flags: `-0.` and minimum field width
+    with all conversions
+-   Managing all the following flags: `#+` + the space one
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Because it's a simple C library, there isn't much to say here
@@ -95,27 +95,26 @@ Having a C compiler like cc, gcc or clang
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/Link-Wolf/ft_printf.git
-   ```
+    ```sh
+    git clone https://github.com/Link-Wolf/ft_printf.git
+    ```
 2. Compile the project
-   ```sh
-   cd ft_printf; make
-   ```
+    ```sh
+    cd ft_printf; make
+    ```
 3. Include ft_printf in your C project
-   ```c
-   #include "include/ft_printf.h
-   ```
+    ```c
+    #include "include/ft_printf.h
+    ```
 4. Compile your project with the ft_printf library
-   ```sh
-   gcc your_project.c -L. -lftprintf
-   ```
+    ```sh
+    gcc your_project.c -L. -lftprintf
+    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Use the ft_printf function as you'd use the native printf (for the available conversions) </br>
@@ -140,7 +139,9 @@ ft_printf("Hexadecimal in lowercase : %x\n", x);
 ft_printf("Hexadecimal in uppercase : %X\n", x_two);
 ft_printf("Percent : %%\n");
 ```
+
 Output
+
 ```
 Char : a$
 String : wesome$
@@ -155,21 +156,18 @@ Percent : %$
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [x] Add bonus features
-- [x] Add back to top links
+-   [x] Add bonus features
 
 See the [open issues](https://github.com/Link-Wolf/ft_printf/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -180,14 +178,5 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## Contact
-
-Mail : xxxxxxx@student.42mulhouse.fr
-
-Project Link: [https://github.com/Link-Wolf/ft_printf](https://github.com/Link-Wolf/ft_printf)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
